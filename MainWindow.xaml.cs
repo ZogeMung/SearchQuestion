@@ -92,7 +92,6 @@ namespace 查题宝
             if (TogglePoint.SelectedIndex == 0)
             {
                 request.Headers.Add("Authorization:" + Q.token);
-                //request.Headers.Add("Authorization:HhznEmsAhXTsivoI;");
             }
             byte[] data = Encoding.UTF8.GetBytes(postdata);
             request.ContentLength = data.Length;
